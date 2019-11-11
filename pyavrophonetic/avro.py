@@ -49,7 +49,7 @@ def parse(text):
 
     """
     # Sanitize text case to meet phonetic comparison standards
-    fixed_text = validate.fix_string_case(utf(text))
+    fixed_text = validate.fix_string_case(text)
     # prepare output list
     output = []
     # cursor end point
